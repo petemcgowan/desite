@@ -1,26 +1,26 @@
 import React, { Component } from "react";
 import { Switch, Route, Redirect } from "react-router-dom";
-import DogList from "./DogList";
-import DogDetails from "./DogDetails";
+import PagesList from "./PagesList";
+import PageDetails from "./PageDetails";
 
 class Routes extends Component {
   render() {
-    const getDog = props => {
+    const getPage = props => {
       let name = props.match.params.name;
-      let currentDog = this.props.dogs.find(
-        dog => dog.name.toLowerCase() === name.toLowerCase()
+      let currentPage = this.props.pages.find(
+        Page => Page.name.toLowerCase() === name.toLowerCase()
       );
-      return <DogDetails {...props} dog={currentDog} />;
+      return <PageDetails {...props} Page={currentPage} />;
     };
     return (
       <Switch>
         <Route
           exact
-          path='/dogs'
-          render={() => <DogList dogs={this.props.dogs} />}
+          path='/pages'
+          render={() => <PagesList pages={this.props.pages} />}
         />
-        <Route exact path='/dogs/:name' render={getDog} />
-        <Redirect to='/dogs' />
+        <Route exact path='/pages/:name' render={getPage} />
+        <Redirect to='/pages' />
       </Switch>
     );
   }
