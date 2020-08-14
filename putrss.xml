@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
+xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0"
+>
+<channel>
+	<title>Pure Techno Underground</title>
+	<atom:link href="https://www.diplomaticenjoy.com/rss/rss.xml" rel="self" type="application/rss+xml" />
+	<link>https://www.diplomaticenjoy.com</link>
+	<description>All underground electronic show, presented by Diplomatic Enjoy (Ireland).  No pop, chart or major labels allowed!  Sister to the &#8220;Underground&#8221; Spotify playlist series.  Songs are DJ mixed live (as originally intended), focusing on one of house (deep, driving), funk (70s to modern) or techno (modern, innovative), or somewhere in between all 3.   Featuring music from labels Phantasy, Stones Throw, Pampa, Mixmag, Resident Advisor, Dirtybird, Rhino and more.  Variety and quality are key</description>
+	<lastBuildDate>Mon, 12 May 2020 23:00 +0100</lastBuildDate>
+	<language>en</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+		<generator>https://wordpress.org/?v=5.1.1</generator>
+
+
+	<itunes:summary>Top shelf electronic music - all underground, no pop.  Each monthly episode will be a DJ mix focusing on one of house(deep, driving), funk (70s to modern) or techno(modern, innovative music), or somewhere in between all 3.  Hosted by Diplomatic Enjoy from Ireland - minimal talking!  &lt;--&gt;  Featuring music from labels such as Phantasy, Stones Throw, Ilian Tape, Kompakt, Pampa, Turbo, Mixmag, Dirtybird, Resident Advisor, Rhino, Soma and more.  &lt;--&gt;  Music played will also be available in streaming playlists on several platforms where available. &lt;--&gt;  Mainstay artists such as James Brown, Madlib, Butch, J Dilla, Skee Mask, Daniel Avery, Carl Craig, Beastie Boys, Axel Boman, Moomin, Beck, Session Victim, Folamour and many more.</itunes:summary>
+	<itunes:author>Diplomatic Enjoy</itunes:author>
+  <itunes:keywords>underground,dj,house,funk,techno,mix</itunes:keywords>
+	<itunes:explicit>no</itunes:explicit>
+	<itunes:image href="https://www.diplomaticenjoy.com/img/UndergroundHousePodcastv2B_2020.jpg" />
+	<itunes:type>episodic</itunes:type>
+	<itunes:owner>
+		<itunes:name>Diplomatic Enjoy</itunes:name>
+		<itunes:email>peteburquette@gmail.com</itunes:email>
+	</itunes:owner>
+	<managingEditor>peteburquette@gmail.com (Diplomatic Enjoy)</managingEditor>
+	<itunes:subtitle>Best in Underground music, mixed and hosted by Diplomatic Enjoy</itunes:subtitle>
+	<image>
+		<title>Underground House, Funk, Techno</title>
+		<url>https://www.diplomaticenjoy.com/img/UndergroundHousePodcastv2B_2020.jpg</url>
+		<link>https://www.diplomaticenjoy.com</link>
+	</image>
+		<itunes:category text="Music">
+			<itunes:category text="Commentary"/>
+		</itunes:category>
+		<itunes:category text="Arts">
+			<itunes:category text="Performing Arts"/>
+		</itunes:category>
+		<itunes:category text="Music">
+			<itunes:category text="History"/>
+		</itunes:category>
+	<googleplay:category text="Music" />
+	<rawvoice:location>Ireland</rawvoice:location>
+	<rawvoice:frequency>Monthly</rawvoice:frequency>
+
+
+</channel>
+</rss>
