@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import  "./Podcast.css";
-import podcastImage from "./images//UndergroundHousePodcastv1G.jpg";
+import podcastImage from "./images/UndergroundHousePodcastv1G.jpg";
 
 
 class Podcast extends Component {
@@ -22,12 +22,6 @@ class Podcast extends Component {
                     <td>
                       <a href="https://podcasts.apple.com/lc/podcast/underground-house-funk-techno/id1445101714"
                         >Apple Podcasts</a>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <a href="https://www.iheart.com/podcast/256-underground-house-funk-tec-31152322/"
-                        >iHeartRadio </a>
                     </td>
                   </tr>
                   <tr>

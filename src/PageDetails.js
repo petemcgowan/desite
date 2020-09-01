@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import "./PageDetails.css";
 import Podcast from "./Podcast.js";
+import PodcastTechno from "./PodcastTechno.js";
 import DownloadsPage from "./DownloadsPage";
 
 class PageDetails extends Component {
@@ -26,7 +27,7 @@ class PageDetails extends Component {
               {Page.remixDownloads ? <DownloadsPage /> : ''}
             </div>
             <div className='Podcast'>
-              <Podcast />
+            {Page.techno ? <PodcastTechno /> : <Podcast />}
             </div>
             <div className='card-body'>
               <Link to='/Pages' className='btn btn-info'>
