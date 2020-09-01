@@ -37,6 +37,8 @@ class DownloadsPage extends React.Component {
       {artist: 'Underground Funk', song: 'Afro Chill Vibes, Hip hop brainfeeder Crates', link: 'https://dts.podtrac.com/redirect.mp3/https://undergroundpodcast.s3.us-east-2.amazonaws.com/192/UHFT-08-Afro_Chill_Vibes_Hip_hop_BrainFeeder_Crates_Underground_Funk.mp3'},
 
       {artist: 'Underground House', song: 'Disco Social Clubbin Dirt Crew', link: 'https://dts.podtrac.com/redirect.mp3/https://undergroundpodcast.s3.us-east-2.amazonaws.com/192/UHFT-09-Disco_Social_Clubbin_Dirt_Crew_Underground_House_EP09.mp3'},
+
+      {artist: 'Underground Techno', song: 'Deep Classics To Cutting Edge - Pure Techno Underground', link: 'https://dts.podtrac.com/redirect.mp3/electriccolour.club/mp3/PTU-01-Deep_Classics_To_Cutting_Edge_Pure_Techno_EP01.mp3'},
     ]
   }
 
