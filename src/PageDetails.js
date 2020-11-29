@@ -16,6 +16,9 @@ class PageDetails extends Component {
             <div className='card-body'>
               <h2 className='card-title'>{Page.name}</h2>
             </div>
+            <div className='Podcast'>
+            {Page.techno && <PodcastTechno />}
+            </div>
             <ul className='list-group list-group-flush'>
               {Page.facts.map((fact, i) => (
                 <li className='list-group-item' key={i}>
@@ -27,7 +30,7 @@ class PageDetails extends Component {
               {Page.remixDownloads ? <DownloadsPage /> : ''}
             </div>
             <div className='Podcast'>
-            {Page.techno ? <PodcastTechno /> : <Podcast />}
+            {!Page.techno && <Podcast />}
             </div>
             <div className='card-body'>
               <Link to='/Pages' className='btn btn-info'>
