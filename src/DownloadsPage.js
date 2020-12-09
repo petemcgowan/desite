@@ -7,7 +7,7 @@ class DownloadsPage extends React.Component {
 
   static defaultProps = {
     mixes: [
-      {artist: 'Missy Elliott', song: 'Ultrafields House (rmx)', link: 'https://bit.ly/32X0kHg'},
+      {artist: 'Missy Elliott', song: 'Ultrafields House (Remix 9 Dec 2020)', link: 'https://bit.ly/3qJE8KH'},
       {artist: 'BT Express', song: 'Do It till youre satisfied (rmx)', link: 'http://bit.ly/2sWYWoJ'},
       {artist: 'The Meters', song: 'Just Kissed My Baby (rmx)', link: 'http://bit.ly/2Pr2rvf'},
       {artist: 'Midnight Movers', song: ' Party (rmx)', link: 'http://bit.ly/2PmztN6'},
