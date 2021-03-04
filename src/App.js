@@ -47,6 +47,16 @@ class App extends Component {
         ]
       },
       {
+        name: "DJ Downloads",
+        ageIsIrrelevant: 4,
+        src: downloads,
+        remixDownloads: true,
+        djMixDownloads: true,
+        techno: false,
+        facts: [
+        ]
+      },
+      {
         name: "Funk",
         ageIsIrrelevant: 4,
         src: funk,
@@ -63,16 +73,6 @@ class App extends Component {
           //          {source:"https://www.youtube.com/embed/DG5GnCwS_EA?rel=0", name:"name", height:  160},
           {source:"https://www.mixcloud.com/widget/iframe/?hide_cover=1&feed=%2Fdiplomaticenjoy%2Funderground-funk-blackbyrds-singing%2F", name:"name", height:  120}
         ]
-      },
-      {
-        name: "Downloads",
-        ageIsIrrelevant: 4,
-        src: downloads,
-        remixDownloads: true,
-        djMixDownloads: true,
-        techno: false,
-        facts: [
-        ]
       }
     ]
   };
@@ -83,8 +83,8 @@ class App extends Component {
       <div>
         <Navbar pages={this.props.pages} />
         <div className='container'>
-          <Routes pages={this.props.pages} />
           <Social />
+          <Routes pages={this.props.pages} />
         </div>
       </div>
     );
