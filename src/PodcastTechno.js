@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import  "./Podcast.css";
-import podcastImage from "./images/ECPodCrowdControlEP01.jpg";
+import podcastImage from "./images/ECPodCrowdControlv2500x500.jpg";
 
 
 // TODO: Obviously PageDetails should be passed a Podcast JSON object (with the other values)  There should be a "techno boolean" or such, which would at least allow for a second podcast.  If the page title is techno, then use the techno podcast JSON, otherwise the "house podcast JSON".  The image link should also be passed in?

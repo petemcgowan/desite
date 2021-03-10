@@ -2,10 +2,13 @@ import React, { Component } from "react";
 import Routes from "./Routes";
 import Navbar from "./Navbar";
 import Social from "./Social";
-import house from "./images//housev2girl-457hi.jpg";
-import techno from "./images/techno-astro-400hi.jpg";
+
+// front page image imports
+import house from "./images/Housev4-(fish-eye,_noTitle500x500).jpg";
+import techno from "./images/ECPodCrowdControlv2500x500.jpg";
 import funk from "./images/funk400hi.jpg";
 import downloads from "./images/SushiDog400vhsfw.jpg";
+
 import "./App.css";
 
 
@@ -35,6 +38,7 @@ class App extends Component {
           {source:"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/668714891&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true", name:"name", height:  160},
 
           {source:"https://open.spotify.com/embed/track/1WXjNKjwp4iRKK0egpv7Rt", name:"name", height:  80},
+
 //          {source:"https://open.spotify.com/embed/album/7zFl3kgDR4aQ8WDhvX8eWk", name:"name", height:  160},
           {source:"https://open.spotify.com/embed/track/3rihedoymkkfQpa1J6vE0Q", name:"name", height:  80}
         ]
