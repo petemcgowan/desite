@@ -13,8 +13,8 @@ const Podcast = () => {
                 <img
                   src={podcastImage}
                   alt="underground house podcast"
-                  height="200"
-                  width="200"
+                  height="250"
+                  width="250"
                 />
               </a>
             </td>

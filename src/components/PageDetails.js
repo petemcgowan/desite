@@ -10,12 +10,11 @@ const PageDetails = (props) => {
 
   return (
     <div className="PageDetails row justify-content-center mt-5 ">
-      <div className="col-11 col-lg-5">
+      <div className="col-11 col-lg-10">
         <div className="PageDetails-card card">
           <div className="card-body">
             <h2 className="card-title">{Page.name}</h2>
           </div>
-          <div className="Podcast">{Page.techno && <PodcastTechno />}</div>
           <ul className="list-group list-group-flush">
             {Page.facts.map((fact, i) => (
               <li className="list-group-item" key={i}>
@@ -36,6 +35,7 @@ const PageDetails = (props) => {
             {Page.remixDownloads ? <DownloadsPage /> : ""}
           </div>
           <div className="Podcast">{!Page.techno && <Podcast />}</div>
+          <div className="Podcast">{Page.techno && <PodcastTechno />}</div>
           <div className="card-body">
             <Link to="/Pages" className="btn btn-info">
               Go Back

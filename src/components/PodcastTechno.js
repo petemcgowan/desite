@@ -17,8 +17,8 @@ const PodcastTechno = () => {
                 <img
                   src={podcastImage}
                   alt="pure techno underground podcast"
-                  height="200"
-                  width="200"
+                  height="250"
+                  width="250"
                 />
               </a>
             </td>

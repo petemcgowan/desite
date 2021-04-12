@@ -2,6 +2,8 @@ import React from "react";
 import { NavLink, Link } from "react-router-dom";
 import "./Navbar.css";
 
+/* Use active style if you need to style the active link, so className="nav-link" becomes activeClassName="nav-link" because nav-link is the CSS needed for the active link */
+
 const Navbar = (props) => {
   const pageLinks = props.pages.map((page) => (
     <li className="nav-item" key={page.name}>
@@ -10,8 +12,9 @@ const Navbar = (props) => {
       </NavLink>
     </li>
   ));
+
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav className="navbar navbar-expand-md navbar-dark bg-dark">
       <Link className="navbar-brand" to="/pages">
         Diplomatic Enjoy
       </Link>
