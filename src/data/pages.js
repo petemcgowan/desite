@@ -7,7 +7,6 @@ import downloads from "../images/SushiDog400vhsfw.jpg";
 export const pages = [
   {
     name: "House",
-    ageIsIrrelevant: 4,
     src: house,
     remixDownloads: false,
     djMixDownloads: false,
@@ -63,7 +62,6 @@ export const pages = [
   },
   {
     name: "Techno",
-    ageIsIrrelevant: 3,
     src: techno,
     remixDownloads: false,
     djMixDownloads: false,
@@ -99,7 +97,6 @@ export const pages = [
   },
   {
     name: "DJ Downloads",
-    ageIsIrrelevant: 4,
     src: downloads,
     remixDownloads: true,
     djMixDownloads: true,
@@ -108,7 +105,6 @@ export const pages = [
   },
   {
     name: "Funk",
-    ageIsIrrelevant: 4,
     src: funk,
     remixDownloads: false,
     djMixDownloads: false,

@@ -8,7 +8,7 @@ const PagesList = (props) => {
       <br />
       <div className="row">
         {props.pages.map((d) => (
-          <div className="Pages col-lg-6 text-center" key={d.name}>
+          <div className="Pages col-lg-5 text-center" key={d.name}>
             <Link to={`/Pages/${d.name}`}>
               <img src={d.src} alt={d.name} />
               <h3 className="mt-3 underline">{d.name}</h3>
