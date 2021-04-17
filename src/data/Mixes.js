@@ -20,6 +20,11 @@ export const Mixes = [
     link: "http://bit.ly/2PmztN6",
   },
   {
+    artist: "Aquarian Dream",
+    song: " You're a Star (rmx)",
+    link: "https://bit.ly/3e9z90w",
+  },
+  {
     artist: "DJ Shadow",
     song: "In Flux (edit)",
     link: "http://bit.ly/2PpOdux",
