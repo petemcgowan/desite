@@ -1,9 +1,9 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Diplomatic Enjoy",
+  "name": "Diplomatic Enjoy React",
   "icons": [
     {
-      "src": "favicon.ico",
+      "src": "/img/cropped-Doggie-Lynne-lo-fi-32x32.jpeg",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     }
