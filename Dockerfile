@@ -4,6 +4,8 @@
 # this is the same as current local Node version, but alpine variety
 FROM node:14.3.0-alpine as build
 
+# a test comment to trigger re-deploy
+
 WORKDIR /app
 COPY package*.json ./
 RUN npm install
