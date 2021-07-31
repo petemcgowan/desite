@@ -16,7 +16,7 @@ const Navbar = (props) => {
   return (
     <nav className="navbar navbar-expand-md navbar-dark bg-dark">
       <Link className="navbar-brand" to="/pages">
-        Diplomatic Enjoy DE1
+        Diplomatic Enjoy DE2
       </Link>
 
       <button
