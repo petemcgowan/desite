@@ -8,6 +8,6 @@ spec:
     app: react
   ports:
     - protocol: TCP
-      port: 443 # abstracted Service port, which can be any port other pods use to access the Service
+      port: 80 # abstracted Service port, which can be any port other pods use to access the Service
       targetPort: 443 # port the container accepts traffic on
   type: LoadBalancer
