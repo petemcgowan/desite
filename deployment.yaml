@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: reactdockercd3
-          image: us.gcr.io/reactdockerde2/desite/reactdockercd3:a126561887b3f372154384df030948cb5cc67fee
+          image: us.gcr.io/reactdockerde2/desite/reactdockercd3:255e1193dcafe450045602347bc547095930f922
           ports:
             - containerPort: 443
