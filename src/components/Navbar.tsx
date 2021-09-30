@@ -1,10 +1,12 @@
 import React from "react";
 import { NavLink, Link } from "react-router-dom";
 import "./Navbar.css";
+import {RoutesProps} from "../interfaces/RoutesInterfaces";
 
 /* Use active style if you need to style the active link, so className="nav-link" becomes activeClassName="nav-link" because nav-link is the CSS needed for the active link */
 
-const Navbar = (props) => {
+
+const Navbar = (props: RoutesProps) => {
   const pageLinks = props.pages.map((page) => (
     <li className="nav-item" key={page.name}>
       <NavLink exact to={`/pages/${page.name}`} className="nav-link">
