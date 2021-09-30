@@ -2,7 +2,10 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./PagesList.css";
 
-const PagesList = (props) => {
+import {RoutesProps} from "../interfaces/RoutesInterfaces";
+
+
+const PagesList = (props: RoutesProps) => {
   return (
     <div className="PagesList">
       <br />

@@ -1,6 +1,11 @@
 import React from "react";
 
-const SearchBar = (props) => {
+interface SearchBarProps {
+  filterText: string;
+  onFilterTextInput (filterText: string) :any;
+}
+
+const SearchBar = (props: SearchBarProps) => {
   //Pete delete below eventually, I'm waffling
   /* props here is filterText and
    onFilterTextInput function which is actually handleFilterTextInput
