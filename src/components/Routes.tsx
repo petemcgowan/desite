@@ -2,8 +2,10 @@ import React from "react";
 import { Switch, Route, Redirect } from "react-router-dom";
 import PagesList from "./PagesList";
 import PageDetails from "./PageDetails";
+import {RoutesProps, PagesType} from "../interfaces/RoutesInterfaces";
 
-const Routes = (props) => {
+
+const Routes = (props: RoutesProps) => {
   return (
     <Switch>
       <Route
@@ -17,9 +19,9 @@ const Routes = (props) => {
         render={(renderProps) => {
           let name = renderProps.match.params.name;
           let currentPage = props.pages.find(
-            (Page) => Page.name.toLowerCase() === name.toLowerCase()
+            (Page:PagesType) => Page.name.toLowerCase() === name.toLowerCase()
           );
-          return <PageDetails {...props} Page={currentPage} />;
+          return <PageDetails {...props} Page={currentPage!} />;
         }}
       />
       <Redirect to="/pages" />
